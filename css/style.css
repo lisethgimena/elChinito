@@ -1,0 +1,33 @@
+:root{
+    --primary:#F2BB16;
+    --secondary: #F20505;
+    --tertiary: #A17C0E;
+    --dark: #0F0B00;
+    --light:#F2F2F2;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    background-color: var(--dark);
+}
+.nav-link{
+    color: var(--primary);
+    width: 150px;
+}
+.nav-link:hover,
+.nav-link:active{
+    color: var(--secondary);
+}
+.navbar-toggler{
+    color: var(--primary);
+}
+.navbar-toggler:hover,
+.navbar-toggler:active,
+.navbar-toggler:focus{
+    color: #F2BB16;
+}
+.navbar-toggler-icon:hover{
+    color: #F2BB16;
+}

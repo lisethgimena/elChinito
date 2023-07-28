@@ -17,13 +17,11 @@
     background-color: var(--dark);
 }
 .nav-link{
-    color: var(--primary);
-}
-.nav-item .nav-link{
+    color: var(--light);
 }
 .nav-link:hover,
 .nav-link:active{
-    color: var(--secondary);
+    color: var(--primary);
 }
 .navbar-toggler{
     color: var(--primary);
@@ -48,14 +46,16 @@
 }
 .section-card img{
     border-radius: 50%;
+    border: var(--tertiary) 2px solid;
     width: 120px;
     height: 120px;
     animation-duration: 0.5s;
-    z-index: -999999;
+    transition: scale 0.15s ease-in-out;
 }
 .section-card img:hover{
     scale: 1.2;
     animation-duration: 0.5s;
+
 }
 .section-link{
     text-decoration: none;
@@ -69,14 +69,30 @@
 }
   /* fin SECCION */
 
-
-
-
-
-
-
 /* PIE DE PAGINA */
 .footer{
     background-color: var(--dark);
+}
+.footer-icon{
+}
+.footer-icon a{
+    color: var(--light);
+    padding: 15px 12px 15px 12px;
+    border-radius: 50%;
+    border: var(--light) 1px solid;
+}
+.footer-icon a:hover{
+    color: var(--dark);
+    background-color: var(--tertiary);
+    border: var(--tertiary) 1px solid;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out;
+}
+.footer-link{
+    color: var(--tertiary);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.footer-link:hover{
+    color: var(--primary);
 }
 /* fin PIE DE PAGINA */

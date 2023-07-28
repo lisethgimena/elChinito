@@ -9,6 +9,9 @@
     text-decoration: none;
     list-style: none;
 }
+/* GENERAL */
+/* fin GENERAL */
+
 /* CABECERA */
 .navbar{
     background-color: var(--dark);
@@ -17,7 +20,6 @@
     color: var(--primary);
 }
 .nav-item .nav-link{
-    width: 150px;
 }
 .nav-link:hover,
 .nav-link:active{
@@ -34,6 +36,39 @@
 .navbar-toggler-icon:hover{
     color: #F2BB16;
 }
+/* finCABECERA */
+
+/* SECCION */
+.section{
+    background-color: var(--light);
+    background-image: url(../img/section-img-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section-card img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation-duration: 0.5s;
+    z-index: -999999;
+}
+.section-card img:hover{
+    scale: 1.2;
+    animation-duration: 0.5s;
+}
+.section-link{
+    text-decoration: none;
+    border: 0;
+    text-underline-offset: none;
+    color: var;
+    z-index: 99999;
+}
+.section-img img{
+    width: 70%;
+}
+  /* fin SECCION */
+
 
 
 
@@ -44,3 +79,4 @@
 .footer{
     background-color: var(--dark);
 }
+/* fin PIE DE PAGINA */

@@ -9,11 +9,14 @@
     text-decoration: none;
     list-style: none;
 }
+/* CABECERA */
 .navbar{
     background-color: var(--dark);
 }
 .nav-link{
     color: var(--primary);
+}
+.nav-item .nav-link{
     width: 150px;
 }
 .nav-link:hover,
@@ -30,4 +33,14 @@
 }
 .navbar-toggler-icon:hover{
     color: #F2BB16;
+}
+
+
+
+
+
+
+/* PIE DE PAGINA */
+.footer{
+    background-color: var(--dark);
 }

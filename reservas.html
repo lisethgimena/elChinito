@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Chinito | HOME</title>
+    <title>El Chinito | Reservas</title>
     <link rel="stylesheet" href="css/style.css?v">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <!-- FAV ICON -->
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#">Servicios</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="reservas.html">Reservas</a></li>
+                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4 activo" href="reservas.html">Reservas</a></li>
                 <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#">Ubícanos</a></li>
                 <!-- 
                 <li class="nav-item dropdown ms-2 me-2">
@@ -51,69 +51,40 @@
 </nav>
 <!-- fin CABECERA -->
 
-<!-- SECTION -->
-<div class="container-fluid section pt-5 pb-5">
-    <div class="row">
-        <div class="col-sm-12 col-md-4 row text-center justify-content-center pb-3">
-            <div class="col-12 mt-4 mb-3"><h1 class="text-center"><strong>¡Te ofrecemos!</strong></h1></div>
+<!-- FORMULARIO-->
+<div class="container-fluid mt-4 mb-4">
 
-            <div class="col-6 col-sm-6 col-md-12 mt-3 mb-3">
-                <a href="#" class="section-card">
-                    <div>
-                        <img class="" src="img/section-img-1.jpg" alt=""><br>
-                        <a class="text-center section-link h5" href="#">CARWASH</a>
-                    </div>
-                </a>    
-            </div>
-
-            <div class="col-6 col-sm-6 col-md-12 mt-3 mb-3">
-                <a href="#" class="section-card">
-                    <div>
-                        <img class="" src="img/section-img-2.webp" alt=""><br>
-                        <a class="text-center section-link h5" href="#">GARAGE</a>
-                    </div>
-                </a>    
-            </div>
-        </div>
-
-        <div class="col-12 col-md-8 justify-content-center text-center section-img">
-            <img class="mt-5" src="img/section-img-auto.png" alt="">
-        </div>
-    </div>
-</div>
-<!-- fin SECTION -->
-
-<!-- QUIENES SOMOS-->
-<div class="container-fluid pt-3 pb-3 info">
     <div class="row justify-content-center">
-
-        <div class="col-12 text-center mb-1"><p class="h1">¿QUIÉNES SOMOS?</p></div>
-
-        <div class="col-12 col-sm-6 text-center">
-            <div class="row justify-content-center info-card m-2">
-                <div class="info-card-image"><img class="shadow m-3" src="img/info-img-1.png" alt=""></div>
-                <div class="info-card-text mt-1"><p class="h3">VALERIO SERRANO</p></div>
+        <div class="col-3">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
+                <label for="floatingInput">Nombres</label>
             </div>
         </div>
-
-        <div class="col-12 col-sm-6 text-center">
-            <div class="row justify-content-center info-card m-1">
-                <div class="info-card-image"><img class="shadow m-3" src="img/info-img-2.png" alt=""></div>
-                <div class="info-card-text mt-1"><p class="h3">LILIANA TRUJILLO</p></div>
-            </div>
-        </div>
-        <div class="col-9">
-            <p class="fs-5 text-break">Somos una pareja de pequeños emprendedores quienes tuvimos la iniciativa de inaugurar
-                un espacio de 450 metros cuadrados para darle uso como cochera en el 2018. Posteriormente,hicimos las
-                implementaciones necesarias para adecuarlo como un carwash en el 2022.
-                Nos sentimos muy orgullosos por lo que hacemos y estaremos gustosos de poder brindarte una
-                atención amable y un servicio de calidad cada vez que nos visites.
-            </p>
-        </div>
-
     </div>
+
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="telefono" maxlength="9" required>
+                <label for="floatingInput">Telefono</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name" maxlength="8" required>
+                <label for="floatingInput">DNI</label>
+            </div>
+        </div>
+    </div>
+
+
+
 </div>
-<!-- fin QUIENES SOMOS-->
+<!-- fin FORMULARIO-->
 
 <!-- PIE DE PAGINA -->
 <footer class="footer pt-2 pb-2">

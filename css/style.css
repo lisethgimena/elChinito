@@ -19,6 +19,9 @@
 .nav-link{
     color: var(--light);
 }
+.nav-link img{
+    width: 170px;
+}
 .nav-link:hover,
 .nav-link:active{
     color: var(--primary);
@@ -34,15 +37,14 @@
 .navbar-toggler-icon:hover{
     color: #F2BB16;
 }
-/* finCABECERA */
+                    /* fin CABECERA */
 
-/* SECCION */
+                    /* SECTION */
 .section{
     background-color: var(--light);
     background-image: url(../img/section-img-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .section-card img{
     border-radius: 50%;
@@ -54,8 +56,6 @@
 }
 .section-card img:hover{
     scale: 1.2;
-    animation-duration: 0.5s;
-
 }
 .section-link{
     text-decoration: none;
@@ -67,13 +67,32 @@
 .section-img img{
     width: 70%;
 }
-  /* fin SECCION */
+                    /* fin SECTION */
 
-/* PIE DE PAGINA */
+                    /* SECTION INFO*/
+.info{
+    background-color: var(--light);
+}
+.info-card-image{
+    background-color: var(--light);
+    width: 150px;
+}
+.info-card img{
+    width: 250px;   
+}
+.info-card-image img{
+    box-shadow: 1.5rem #0F0B00;
+    transition: scale 0.35s ease-in-out;
+}
+.info-card-image img:hover{
+    scale: 1.15;
+
+}
+                    /* fin SECTION INFO*/
+
+                    /* PIE DE PAGINA */
 .footer{
     background-color: var(--dark);
-}
-.footer-icon{
 }
 .footer-icon a{
     color: var(--light);
@@ -95,4 +114,4 @@
 .footer-link:hover{
     color: var(--primary);
 }
-/* fin PIE DE PAGINA */
+                        /* fin PIE DE PAGINA */

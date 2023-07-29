@@ -78,15 +78,16 @@
     width: 150px;
 }
 .info-card img{
-    width: 250px;   
+    width: 250px;
+    border-radius: 50%;  
 }
 .info-card-image img{
-    box-shadow: 1.5rem #0F0B00;
-    transition: scale 0.35s ease-in-out;
+    transition: scale 0.35s ease-in-out , background-color 0.55s ease-in-out , transform 0.35s ease-in-out;
 }
 .info-card-image img:hover{
-    scale: 1.15;
-
+    scale: 1.05;
+    background-color: var(--primary);
+    transform: translateY(-10px);
 }
                     /* fin SECTION INFO*/
 

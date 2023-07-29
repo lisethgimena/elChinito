@@ -11,7 +11,9 @@
 }
 
 /* GENERAL */
-
+html {
+    scroll-behavior: smooth;
+}
 /* fin GENERAL */
 
 /* CABECERA */
@@ -20,6 +22,9 @@
 }
 .nav-link{
     color: var(--light);
+}
+.nav-item .activo{
+    color: var(--primary);
 }
 .nav-link img{
     width: 170px;
@@ -86,7 +91,13 @@
 }
 .info-card-image{
     background-color: var(--light);
-    width: 150px;
+    width: 150;
+/*
+ms-1 = 0.5rem = 8px
+mt-3 = 1.5rem = 24px
+fs-4 = 2rem = 32px
+*/
+
 }
 .info-card img{
     width: 250px;

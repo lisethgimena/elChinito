@@ -5,6 +5,16 @@ document.querySelector('#formSelectService1').onclick = () =>{
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
+
+function calcularPresupuesto(){
+    monitorValue = parseInt(document.getElementById("monitor").value);
+    procesadorValue = parseInt(document.getElementById("procesador").value);
+    discoDuroValue = parseInt(document.getElementById("disco-duro").value);
+
+    presupuestoTotal = monitorValue + procesadorValue + discoDuroValue;
+    presupuestoElement = document.getElementById("presu");
+    presupuestoElement.textContent = "Presupuesto: $" + presupuestoTotal;
+}
 */
 
 function selectService(){

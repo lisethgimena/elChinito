@@ -14,13 +14,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-</head>
-<!-- Hola -->
 
 <body>
 
 <!-- CABECERA -->
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="navbar-brand ms-5 me-5">
             <a class="nav-link fs-1" href="index.html"><img src="img/logo.png" alt="Logo"></a>
@@ -32,8 +30,11 @@
 
         <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#sectionQuienesSomos">¿Quiénes somos?</a></li>
+                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#sectionUbicanos">Ubícanos</a></li>
+                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#sectionGaleria">Galeria</a></li>
+                
                 <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#">Servicios</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#">Ubícanos</a></li>
                 <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="reservaciones.html">Reservaciones</a></li>
 
                 <!-- 
@@ -45,8 +46,6 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </li>-->
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#">Galeria</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#">¿Quiénes somos?</a></li>
 
             </ul>
         </div>
@@ -87,7 +86,7 @@
 <!-- fin SECTION -->
 
 <!-- QUIENES SOMOS-->
-<div class="container-fluid pt-3 pb-3 info">
+<div class="container-fluid pt-4 pb-4 sectionQuienesSomos" id="sectionQuienesSomos">
     <div class="row justify-content-center">
 
         <div class="col-12 text-center mb-1"><p class="h1">¿QUIÉNES SOMOS?</p></div>
@@ -106,8 +105,8 @@
             </div>
         </div>
 
-        <div class="col-9" style="background-color: rgb(247, 240, 149); align-items: center;">
-            <p class="fs-5 text-break">Somos una pareja de pequeños emprendedores quienes tuvimos la iniciativa de inaugurar
+        <div class="col-12 col-sm-11 col-md-9" >
+            <p class="fs-5 pt-1 pb-1 pe-3 ps-3 m-0 text-break info-text rounded shadow">Somos una pareja de pequeños emprendedores quienes tuvimos la iniciativa de inaugurar
                 un espacio de 450 metros cuadrados para darle uso como cochera en el 2018. Posteriormente,
                 hicimos las implementaciones necesarias para adecuarlo como un carwash en el 2022.
                 Nos sentimos muy orgullosos por lo que hacemos y estaremos gustosos de poder brindarte una
@@ -120,102 +119,86 @@
 <!-- fin QUIENES SOMOS-->
 
 <!--UBÍCANOS-->
-<div class="container-fluid pt-3 pb-3 info">
+<div class="container-fluid pt-1 mt-1 mt-sm-3 mt-md-4 mb-1 mb-sm-3 mb-md-5 sectionUbicanos" id="sectionUbicanos">
     <div class="row justify-content-center">
 
-        <div class="col-md-4"> 
-            
-            <div class="text-center mb-1" style="margin-top: 15px;"><p class="h1">UBÍCANOS</p></div>
+        <div class="col-12 text-center mb-2"><p class="h1">UBÍCANOS</p></div>
 
-            <div class="row align-items-center" style="background-color: rgb(247, 240, 149); margin-top: 70px; height: auto;">
-                <p class="fs-5 text-break">Nos encontramos en la Av. Señor de Huayopampa
-                    Manzana E1, Lote 3. Referencia al costado del almacén de agricultura.
-                </p>
-            </div>
-            <br>
+        <div class="col-12 col-sm-12 col-md-4 row justify-content-center">
+            <div class="col-10 col-sm-10">
+                <div class="row align-items-center mt-sm-1 mt-md-5">
+                    <p class="fs-5 text-break fs-5 pt-1 pb-1 pe-3 ps-3 m-0 text-break ubicanos-text shadow" id="ubicanos-text-1"><strong>Dirección:</strong> Av. Señor de Huayopampa Manzana E1, Lote 3.</p>
+                    <p class="fs-5 text-break fs-5 pt-1 pb-1 pe-3 ps-3 m-0 text-break ubicanos-text shadow" id="ubicanos-text-2"><strong>Referencia:</strong> Al costado del almacén de agricultura.</p>
+                </div>
+            </div> 
         </div>
         
-        <div class="col-md-8">
+        <div class="col-12 col-sm-12 col-md-8 rounded shadow mb-2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d990.470126235226!2d-76.2336834348301!3d-9.910158487278313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNTQnMzcuMiJTIDc2wrAxMyc1OS4xIlc!5e1!3m2!1ses!2spe!4v1690640971867!5m2!1ses!2spe" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <br><br>
         </div>
         
-        <div class="col-12 text-center mb-1"><p class="h1">RECORRIDO DE LA AVENIDA</p></div>
+        <div class="col-12 text-center mt-2 mt-sm-4 mb-1"><p class="h3">¿Cómo llegar? solo sigue estas referencias</p></div>
 
-        <div class="row">
-
-            <div class="col-2"></div>
-
-            <div class="col-8">
+        <div class="row justify-content-center">
+            <div class="col-9">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    
                     <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
                     </div>
+                    
                     <div class="carousel-inner">
-    
-                      <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img/IMG_20230617_144609~2.jpg" class="d-block w-100">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>(1)</h5>
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/recorridoImg1.jpg" class="d-block w-100 rounded shadow">
+                            <!-- <div class="carousel-caption d-none d-md-block"><h5>(1)</h5></div> -->
                         </div>
-                      </div>
     
-                      <div class="carousel-item" data-bs-interval="2000">
-                        <img src="img/IMG_20230617_144220~2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>(2)</h5>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/recorridoImg2.jpg" class="d-block w-100 rounded shadow">
+                            <!-- <div class="carousel-caption d-none d-md-block"><h5>(1)</h5></div> -->
                         </div>
-                      </div>
     
-                      <div class="carousel-item">
-                        <img src="img/IMG_20230617_144120.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>(3)</h5>
+                        <div class="carousel-item">
+                            <img src="img/recorridoImg3.jpg" class="d-block w-100 rounded shadow">
+                            <!-- <div class="carousel-caption d-none d-md-block"><h5>(1)</h5></div> -->
                         </div>
-                      </div>
     
-                      <div class="carousel-item">
-                        <img src="img/IMG_20230617_144041~2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>(4)</h5>
+                        <div class="carousel-item">
+                            <img src="img/recorridoImg4.jpg" class="d-block w-100 rounded shadow">
+                            <!-- <div class="carousel-caption d-none d-md-block"><h5>(1)</h5></div> -->
                         </div>
-                      </div>
-    
                     </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+
+                    <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden text-light">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
                 </div>
             </div>
-            
-            <div class="col-2"></div>
-
         </div>
+
     </div>
 </div>
 <!-- fin UBICANOS-->
 
 <!-- GALERIA-->
-<div class="container-fluid pt-3 pb-3 info">
+<div class="container-fluid mt-1 mt-sm-3 mt-md-4 mb-1 mb-sm-3 mb-md-5 sectionUbicanos" id="sectionGaleria">
     <div class="row justify-content-center">
-
         <div class="col-12 text-center mb-1"><p class="h1">CONOCE NUESTRO TRABAJO E INSTALACIONES</p></div>
 
-        <div class="row">
+        <div class="row justify-content-center">
 
-            <div class="col-1"></div>
-
-            <div class="col-10">
+            <div class="col-11">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide">
+
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -224,67 +207,55 @@
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
                     </div>
+
                     <div class="carousel-inner">
 
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="img/G trabajo1.jpg" class="d-block w-100">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>(1)</h5>
-                            </div>
+                            <img src="img/galeria-img-1.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block"><h5 class="">(1)</h5></div>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="img/G trabajo 5.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>(2)</h5>
-                            </div>
+                            <img src="img/galeria-img-2.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block"><h5>(2)</h5></div>
                         </div>
 
                         <div class="carousel-item">
-                            <img src="img/G trsbsjo 4.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>(3)</h5>
-                            </div>
+                            <img src="img/galeria-img-3.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block"><h5>(3)</h5></div>
                         </div>
 
                         <div class="carousel-item">
-                            <img src="img/G trsbsjo 2.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>(4)</h5>
-                            </div>
+                            <img src="img/galeria-img-4.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block"><h5>(4)</h5></div>
                         </div>
 
                         <div class="carousel-item">
-                            <img src="img/G trabajo 6.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>(5)</h5>
-                            </div>
+                            <img src="img/galeria-img-5.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block"><h5>(5)</h5></div>
                         </div>
 
                         <div class="carousel-item">
-                            <img src="img/G cochera2.png" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>(6)</h5>
-                            </div>
+                            <img src="img/galeria-img-6.jpg" class="d-block w-100">
+                            <div class="carousel-caption d-none d-md-block"><h5>(6)</h5></div>
                         </div>
 
                     </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
                 </div>
             </div>
 
-            <div class="col-1"></div>
-
         </div>
-
     </div>
 </div>
 <!-- fin GALERIA-->

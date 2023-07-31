@@ -53,8 +53,7 @@ body{
         /* SECTION */
 .section{
     background-color: var(--light);
-    background-clip: url(../vid/section-vid.mp4);
-    /* background-image: url(../img/section-img-bg.png); */
+    background-image: url(../img/section-img-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }

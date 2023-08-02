@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Chinito </title>
+    <title>El Chinito|Desarrolladores </title>
     <link rel="stylesheet" href="css/style.css?v">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <!-- FAV ICON -->
@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 </head>
 
@@ -51,118 +55,103 @@
 </nav>
 <!-- fin CABECERA -->
 
-<!-- FORMULARIO-->
+<!-- DESARROLLADORES-->
 
 <div class="container-fluid mt-4 mb-3 form">
-
-    <div class="row justify-content-start ">
-
-        <div class="col 12 row justify-content-center">
-            <div class="col-11 col-sm-10 col-md-9">
-                <p class="titulo"> <b> RESERVACIONES</b> </p>
-            </div>
-        </div>
-    
-        <div class="col-12 row justify-content-center">
-            <div class="col-11 col-sm-10 col-md-9">
-                <p class="info-reservas">INFOMACIÒN IMPORTANTE: Toda reserva con pago en efectivo tendrá como máximo 
-                    una espera de 15 minutos en la hora fijada en el local, caso contrario será cancelado.</p>
-            </div>
-        </div>
-    
-    </div>  
-    <div class="row justify-content-center">
-        <div id="borde-info" class="col-9"  >  
-    
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
-                        <label for="floatingInput">Nombres</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="telefono" maxlength="9" required>
-                        <label for="floatingInput">Telefono</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name" maxlength="8" required>
-                        <label for="floatingInput">DNI</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Seleccione el servicio deseado</option>
-                            <option value="1">Lavado</option>
-                            <option value="2">Garage</option>
-                            <option value="3">Ambos</option>
-                        </select>
-                        <label for="floatingInput">SERVICIO</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Horario" maxlength="9" required>
-                        <label for="floatingInput">Ingrese el Horario</label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center ">
-                <div class="col-9 col-sm-9 col-md-8">
-                    <p for="floatingInput"><b>MÉTODO DE PAGO</b></p>
-                </div>
-            </div>
-
-            <div class="row justify-content-center ">
-    
-                <div class="col-9 col-sm-9 col-md-8">
-                    <form action="" name="form1">
-                        <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService2" name="serviceOption">
-                            <label class="checkeable">
-                                <input type="checkbox" name="cap2"/>
-                                <img id="efectivo" class="circular--square" src="imagenesComprimidas/dinero.png"/> Efectivo</label>
-                        </div> 
-
-                        <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
-                            <label class="checkeable">
-                                <input type="checkbox" name="cap1"/>
-                                <img class="circular--square" src="imagenesComprimidas/yape.png"/> 950 439 585</label>
-                        </div>     
-                    </form>
-                </div>
-            </div>
-
-
-            <div class="row justify-content-center ">
-                <div id="boton" class="col 3 ">
-                    <input type="button" value="Enviar" id="boton1" onclick="enviar()"><br>
-                </div>
-            </div>
+        <div class="row justify-content-center">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
             
+                                <div class="card-image">
+                                    <img src="img/lis.png" alt="" class="card-img">
+                                </div>
+                            </div>
+            
+                            <div class="card-content">
+                                <h2 class="name">Adriano Valentin, Liseth</h2>
+                                <p class="description">Amante de los animales y el chocolate</p>
+            
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+            
+                                <div class="card-image">
+                                    <img src="img/ayleem.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+            
+                            <div class="card-content">
+                                <h2 class="name">Bueno Vela, Ayleem</h2>
+                                <p class="description">Encantada de los estados</p>
+            
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+            
+                                <div class="card-image">
+                                    <img src="img/xioma 1 x1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+            
+                            <div class="card-content">
+                                <h2 class="name">Corne Gonzales, Xiomara </h2>
+                                <p class="description">Fanática de Harry Potter</p>
+            
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+            
+                                <div class="card-image">
+                                    <img src="img/fer.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+            
+                            <div class="card-content">
+                                <h2 class="name">Pelaez Vasquez, Fernando</h2>
+                                <p class="description">Entusiasta jugador de RPG</p>
+            
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+            
+                                <div class="card-image">
+                                    <img src="img/eby.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+            
+                            <div class="card-content">
+                                <h2 class="name">Villareal Esteban,Ebelyn</h2>
+                                <p class="description">Peralista de corazón</p>
+            
+                                <button class="button">View More</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
         </div>
-    </div>
-    
 </div>
-<!-- fin FORMULARIO-->
+<!-- fin DESARROLLADORES-->
 
 <!-- PIE DE PAGINA -->
 <footer class="footer pt-2 pb-2">
@@ -207,4 +196,9 @@
 <script src="js/reserva.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="js/sweetAlert.js"></script>
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+<!-- JavaScript -->
+<script src="js/script.js"></script>
 </html>
+

@@ -191,20 +191,25 @@ body{
 .checkeable input {
     display: none;
 }
+
 .checkeable img {
     width: 70px;
-    border: 3px solid transparent;
-    
+    border: 3px solid transparent;  
+    margin-bottom: 20px;
 }
 .checkeable input {
     display: none;
 }
 .checkeable input:checked  + img {
-    border-color: #F2BB16;
+    border-color: #92d2fd;
+}
+#efectivo{
+    border: 2px solid #00fc60;
 }
 .circular--square {
     border-radius: 50%;
-  }
+}
+
 #boton{
     text-align: center;
 }

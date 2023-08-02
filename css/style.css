@@ -187,6 +187,24 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
+.checkeable input {
+    display: none;
+}
+.checkeable img {
+    width: 70px;
+    border: 3px solid transparent;
+    
+}
+.checkeable input {
+    display: none;
+}
+.checkeable input:checked  + img {
+    border-color: #F2BB16;
+}
+.circular--square {
+    border-radius: 50%;
+  }
 #boton{
     text-align: center;
 }

@@ -131,32 +131,35 @@
                     <p for="floatingInput"><b>MÉTODO DE PAGO</b></p>
                 </div>
             </div>
+
             <div class="row justify-content-center ">
     
                 <div class="col-9 col-sm-9 col-md-8">
                     <form action="" name="form1">
                         <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
-                            <label class="form-check-label" for="flexCheckChecked">Efectivo</label>
-                        </div>
-                        <div class="form-check">
                             <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService2" name="serviceOption">
-                            <label class="form-check-label" for="flexCheckChecked">Yape</label>
-                        </div>        
+                            <label class="checkeable">
+                                <input type="checkbox" name="cap2"/>
+                                <img class="circular--square" src="imagenesComprimidas/dinero.png"/> Efectivo</label>
+                        </div> 
+
+                        <div class="form-check">
+                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
+                            <label class="checkeable">
+                                <input type="checkbox" name="cap1"/>
+                                <img class="circular--square" src="imagenesComprimidas/yape.png"/> 950 439 585</label>
+                        </div>     
                     </form>
                 </div>
             </div>
+
+
             <div class="row justify-content-center ">
                 <div id="boton" class="col 3 ">
                     <input type="button" value="Enviar" id="boton1" onclick="enviar()"><br>
                 </div>
             </div>
-            <script>
-                function enviar(){
-                    alert("Sus datos fueron registrados correctamente. ¡Gracias por confiar en nosotros!");
-                }
-            </script>
-        
+            
         </div>
     </div>
     
@@ -204,4 +207,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="js/reserva.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/sweetAlert.js"></script>
 </html>

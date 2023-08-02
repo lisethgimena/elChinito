@@ -6,6 +6,25 @@
     --dark: #0F0B00;
     --light:#f2f2f2;
 }
+
+/* MODIFICAR*/
+.señores{
+    border: white 8px outset;
+}
+.titulo{
+    font-size: 50px;
+    color: #F2BB16;
+    margin-top: 20px;
+    -webkit-text-stroke: 2px #A17C0E;
+    font-family: Cambria;
+}
+.tarifa{
+    -webkit-text-stroke: 2px black;
+  color: transparent;
+  font-size: 40px;
+  text-shadow: #0F0B00;
+}
+/* fin  MODIFICAR*/
 *{
     list-style: none;
 }

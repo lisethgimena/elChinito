@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EL CHINITO | Desarrolladores</title>
+    <title>EL CHINITO | Galeria</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <!-- FAV ICON -->
@@ -13,10 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
@@ -37,7 +33,7 @@
                 <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="garage.html">Garage</a></li>
                 <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="quienes-somos.html">¿Quiénes somos?</a></li>
                 <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="ubicanos.html">Ubícanos</a></li>
-                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="galeria.html">Galeria</a></li>
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5 activo" href="galeria.html">Galeria</a></li>
                 <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="reservaciones.html">Reservaciones</a></li>
             </ul>
         </div>
@@ -45,105 +41,75 @@
 </nav>
 <!-- CABECERA -->
 
-<!-- DESARROLLADORES-->
-
-<div class="container-fluid mt-4 mb-3 form">
+<!-- GALERIA-->
+<div class="container-fluid pt-1 mt-1 mt-sm-3 mt-md-4 mb-1 mb-sm-3 mb-md-5">
     <div class="row justify-content-center">
-        <div class="slide-container swiper">
-            <div class="slide-content">
-                <div class="card-wrapper swiper-wrapper">
+        <div class="col-12 text-center mb-1"><p class="h2">CONOCE NUESTRO TRABAJO E INSTALACIONES</p></div>
+        <div class="row justify-content-center">
 
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-        
-                            <div class="card-image">
-                                <img src="img/developer-lis.png" alt="" class="card-img">
-                            </div>
-                        </div>
-        
-                        <div class="card-content">
-                            <h2 class="name">Adriano Valentin, Liseth</h2>
-                            <p class="description">Amante de los animales y el chocolate</p>
-        
-                            <button class="button">View More</button>
-                        </div>
+            <div class="col-12">
+                <div id="carouselGaleria" class="carousel carousel-dark slide">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselGaleria" data-bs-slide-to="5" aria-label="Slide 6"></button>
                     </div>
-                    
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-        
-                            <div class="card-image">
-                                <img src="img/ayleem.jpg" alt="" class="card-img">
-                            </div>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/galeria-img-1.jpg" class="d-block w-100 rounded shadow">
+                            <div class="carousel-caption d-none d-md-block"><h5 class="">(1)</h5></div>
                         </div>
-        
-                        <div class="card-content">
-                            <h2 class="name">Bueno Vela, Ayleem</h2>
-                            <p class="description">Encantada de los estados</p>
-        
-                            <button class="button">View More</button>
+
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/galeria-img-2.jpg" class="d-block w-100 rounded shadow">
+                            <div class="carousel-caption d-none d-md-block"><h5>(2)</h5></div>
                         </div>
+
+                        <div class="carousel-item">
+                            <img src="img/galeria-img-3.png" class="d-block w-100 rounded shadow">
+                            <div class="carousel-caption d-none d-md-block"><h5>(3)</h5></div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/galeria-img-4.jpg" class="d-block w-100 rounded shadow">
+                            <div class="carousel-caption d-none d-md-block"><h5>(4)</h5></div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/galeria-img-5.jpg" class="d-block w-100 rounded shadow">
+                            <div class="carousel-caption d-none d-md-block"><h5>(5)</h5></div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/galeria-img-6.jpg" class="d-block w-100 rounded shadow">
+                            <div class="carousel-caption d-none d-md-block"><h5>(6)</h5></div>
+                        </div>
+
                     </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-        
-                            <div class="card-image">
-                                <img src="img/xioma 1 x1.jpg" alt="" class="card-img">
-                            </div>
-                        </div>
-        
-                        <div class="card-content">
-                            <h2 class="name">Corne Gonzales, Xiomara </h2>
-                            <p class="description">Fanática de Harry Potter</p>
-        
-                            <button class="button">View More</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-        
-                            <div class="card-image">
-                                <img src="img/fer.jpg" alt="" class="card-img">
-                            </div>
-                        </div>
-        
-                        <div class="card-content">
-                            <h2 class="name">Pelaez Vasquez, Fernando</h2>
-                            <p class="description">Entusiasta jugador de RPG</p>
-        
-                            <button class="button">View More</button>
-                        </div>
-                    </div>
-                    <div class="card swiper-slide">
-                        <div class="image-content">
-                            <span class="overlay"></span>
-        
-                            <div class="card-image">
-                                <img src="img/eby.jpg" alt="" class="card-img">
-                            </div>
-                        </div>
-        
-                        <div class="card-content">
-                            <h2 class="name">Villareal Esteban,Ebelyn</h2>
-                            <p class="description">Peralista de corazón</p>
-        
-                            <button class="button">View More</button>
-                        </div>
-                    </div>
-                    
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
                 </div>
             </div>
-        
-            <div class="swiper-button-next swiper-navBtn"></div>
-            <div class="swiper-button-prev swiper-navBtn"></div>
-            <div class="swiper-pagination"></div>
+
+        </div>
     </div>
 </div>
-<!-- fin DESARROLLADORES-->
+<!-- fin GALERIA-->
 
 <!-- PIE DE PAGINA -->
 <footer class="footer pt-2 pb-2 mt-1">
@@ -152,7 +118,7 @@
             <div class="col-12 row text-center mt-3 mb-4 justify-content-sm-start">
                 <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="reservaciones.html" class="nav-link">RESERVACIONES</a></div>
                 <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="#" class="nav-link disabled">CONTÁCTANOS</a></div>
-                <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="desarrolladores.html" class="nav-link activo">DESARROLLADORES</a></div>
+                <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="desarrolladores.html" class="nav-link">DESARROLLADORES</a></div>
             </div>
 
             <div class="col-12 row mt-3 mb-3">
@@ -183,14 +149,8 @@
     </div>
 </footer>
 <!-- fin PIE DE PAGINA -->
-
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-<script src="js/reserva.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="js/sweetAlert.js"></script>
-<!-- Swiper JS -->
-<script src="js/swiper-bundle.min.js"></script>
-<!-- JavaScript -->
-<script src="js/script.js"></script>
+        
 </body>
 </html>

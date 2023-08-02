@@ -4,7 +4,7 @@
     --secondary: #FFF980;
     --tertiary: #A17C0E;
     --dark: #0F0B00;
-    --light:#F2F2F2;
+    --light:#f2f2f2;
 }
 *{
     list-style: none;
@@ -151,6 +151,67 @@ body{
         height: 100%;
     }
         /* fin UBICANOS */
+
+/* RESERVACIONES */
+.titulo{
+    font-size: 50px;
+    color: #F2BB16;
+    margin-top: 20px;
+    -webkit-text-stroke: 2px #A17C0E;
+    font-family: Cambria;
+}
+.info-reservas{
+    text-align: justify;
+}
+#borde-info{
+    align-items: center; 
+    padding-top: 35px; 
+    padding-bottom: 35px;
+    border: rgb(245, 138, 138) 5px groove;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#boton{
+    text-align: center;
+}
+
+#boton1 {
+    margin-top: 20px;
+    border: 0 solid;
+    padding: 5px;
+    height: 40px;
+    width: 130px;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(250, 246, 227);
+
+    background-color: red;
+    box-shadow: inset 0 0 20px rgb(250, 68, 68);
+    outline: 1px solid;
+    outline-color: rgba(255, 14, 14, 0);
+    outline-offset: 0px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    outline-color: #0f0b00;
+    outline-offset: 0px;
+}
+  
+#boton1:hover {
+    border: 2px #970909 solid;
+    border-radius: 2px;
+    box-shadow: inset 0 0 20px rgb(255, 246, 194), 0 0 20px rgba(245, 127, 72, 0.952);
+    outline-offset: 15px;
+    outline-color: rgba(255, 255, 255, 0.829);
+    text-shadow: 1px 1px 2px #0F0B00;
+    -webkit-text-stroke: 1px #fefff8;
+    text-shadow: 2px 2px #0F0B00 ;
+}
+
+/* fin RESERVACIONES */
 
         /* PIE DE PAGINA */
 .footer{

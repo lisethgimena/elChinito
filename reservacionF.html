@@ -52,114 +52,73 @@
 <!-- fin CABECERA -->
 
 <!-- FORMULARIO-->
-
-
-
 <div class="container-fluid mt-4 mb-3 form">
 
-    <div class="row justify-content-start ">
-
-        <div class="col 12 row justify-content-center">
-            <div class="col-11 col-sm-10 col-md-9">
-                <p class="titulo"> <b> RESERVACIONES</b> </p>
-            </div>
-        </div>
-    
-        <div class="col-12 row justify-content-center">
-            <div class="col-11 col-sm-10 col-md-9">
-                <p class="info-reservas">INFOMACIÒN IMPORTANTE: Toda reserva con pago en efectivo tendrá como máximo 
-                    una espera de 15 minutos en la hora fijada en el local, caso contrario será cancelado.</p>
-            </div>
-        </div>
-    
-    </div>  
     <div class="row justify-content-center">
-        <div id="borde-info" class="col-9"  >  
-    
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
-                        <label for="floatingInput">Nombres</label>
-                    </div>
-                </div>
+        <div class="col-9 col-sm-6 col-md-4">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
+                <label for="floatingInput">Nombres</label>
             </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="telefono" maxlength="9" required>
-                        <label for="floatingInput">Telefono</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name" maxlength="8" required>
-                        <label for="floatingInput">DNI</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Seleccione el servicio deseado</option>
-                            <option value="1">Lavado</option>
-                            <option value="2">Garage</option>
-                            <option value="3">Ambos</option>
-                        </select>
-                        <label for="floatingInput">SERVICIO</label>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row justify-content-center">
-                <div class="col-9 col-sm-9 col-md-9">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Horario" maxlength="9" required>
-                        <label for="floatingInput">Ingrese el Horario</label>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center ">
-                <div class="col-9 col-sm-9 col-md-8">
-                    <p for="floatingInput"><b>MÉTODO DE PAGO</b></p>
-                </div>
-            </div>
-            <div class="row justify-content-center ">
-    
-                <div class="col-9 col-sm-9 col-md-8">
-                    <form action="" name="form1">
-                        <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
-                            <label class="form-check-label" for="flexCheckChecked">Efectivo</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService2" name="serviceOption">
-                            <label class="form-check-label" for="flexCheckChecked">Yape</label>
-                        </div>        
-                    </form>
-                </div>
-            </div>
-            <div class="row justify-content-center ">
-                <div id="boton" class="col 3 ">
-                    <input type="button" value="Enviar" id="boton1" onclick="enviar()"><br>
-                </div>
-            </div>
-            <script>
-                function enviar(){
-                    alert("Sus datos fueron registrados correctamente. ¡Gracias por confiar en nosotros!");
-                }
-            </script>
-        
         </div>
     </div>
-    
+
+    <div class="row justify-content-center">
+        <div class="col-9 col-sm-6 col-md-4">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="telefono" maxlength="9" required>
+                <label for="floatingInput">Telefono</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-9 col-sm-6 col-md-4">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name" maxlength="8" required>
+                <label for="floatingInput">DNI</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-9 col-sm-6 col-md-4">
+            <div class="form-floating mb-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Seleccione el servicio deseado</option>
+                    <option value="1">Lavado</option>
+                    <option value="2">Garage</option>
+                    <option value="3">Ambos</option>
+                </select>
+                <label for="floatingInput">SERVICIO</label>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="row justify-content-center ">
+        <div class="col-9 col-sm-2 col-md-2">
+            <p for="floatingInput">SERVICIOS</p>
+        </div>
+        <div class="col-9 col-sm-4 col-md-2">
+            <form action="" name="form1">
+                <div class="form-check">
+                    <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
+                    <label class="form-check-label" for="flexCheckChecked">Lavado</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService2" name="serviceOption">
+                    <label class="form-check-label" for="flexCheckChecked">Garage</label>
+                </div>        
+                <div class="form-check">
+                    <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService3" name="serviceOption">
+                    <label class="form-check-label" for="flexCheckChecked">Ambos</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
 </div>
 <!-- fin FORMULARIO-->
 
@@ -204,4 +163,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="js/reserva.js"></script>
+</body>
 </html>

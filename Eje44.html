@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link rel="stylesheet" href="a4.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="logo.png" alt="UNHEVAL">
+          <h1>Programado por Liseth Adriano Valentin</h1>
+      </div>
+    </header>
+    <h2><u>INGRESO DE DATOS</u></h2>
+    <div class="container">
+    <script>
+        function mostrar(){
+            nom=document.form1.nombre.value;
+            ap=document.form1.apellidos.value;
+            ed=document.form1.edad.value;
+            
+            
+            if(document.form1.genero[0].checked)
+            alert("Su Nombre es " +nom +" "+ap +"\nSu edad es: " +ed +"\nGenero: Másculino");
+            if(document.form1.genero[1].checked)
+            alert("Su Nombre es " +nom +" "+ap +"\nSu edad es: " +ed +"\nGenero: Femenino");
+              
+            
+        }
+    </script>
+    <form name="form1">
+        Nombre:<input type="text" name="nombre"><br>
+        Apellidos<input type="text" name="apellidos"><br>
+        Edad<input type="text" name="edad"><br>
+      <input type="radio" name="genero" value="Masculino">Masculino<br>
+      <input type="radio" name="genero" value="Femenino">Femenino<br>
+      <input type="button" value="Enviar" class="botoni" onclick="mostrar()"><br>
+    </form>
+    </div>
+</body>
+</html>

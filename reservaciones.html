@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Chinito | Reservas</title>
-    <link rel="stylesheet" href="css/style.css?v">
+    <title>EL CHINITO | Reservaciones</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <!-- FAV ICON -->
     <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon">
@@ -14,37 +14,28 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-</head>
-
+    
 <body onmouseover="selectService()">
 
 <!-- CABECERA -->
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <div class="navbar-brand ms-5 me-5">
             <a class="nav-link fs-1" href="index.html"><img src="img/logo.png" alt="Logo"></a>
         </div>
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#sectionQuienesSomos">¿Quiénes somos?</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#sectionUbicanos">Ubícanos</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="#sectionGaleria">Galeria</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4 activo" href="reservaciones.html">Reservaciones</a></li>
-                <li class="nav-item ms-2 me-2"><a class="nav-link fs-4" href="">Servicios</a></li>
-            <!-- 
-                <li class="nav-item dropdown ms-2 me-2">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            -->
+            <ul class="navbar-nav mt-4 me-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="carwash.html">Carwash</a></li>
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="garage.html">Garage</a></li>
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="quienes-somos.html">¿Quiénes somos?</a></li>
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="ubicanos.html">Ubícanos</a></li>
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5" href="galeria.html">Galeria</a></li>
+                <li class="nav-item ms-1 me-1"><a class="nav-link fs-5 activo" href="reservaciones.html">Reservaciones</a></li>
             </ul>
         </div>
     </div>
@@ -52,9 +43,6 @@
 <!-- fin CABECERA -->
 
 <!-- FORMULARIO-->
-
-
-
 <div class="container-fluid mt-4 mb-3 form">
 
     <div class="row justify-content-start ">
@@ -167,13 +155,13 @@
 <!-- fin FORMULARIO-->
 
 <!-- PIE DE PAGINA -->
-<footer class="footer pt-2 pb-2">
+<footer class="footer pt-2 pb-2 mt-1">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 row text-center mt-3 mb-4 justify-content-sm-start">
-                <div class="col-12 col-sm-4 text-center mt-2"><a href="#" class="nav-link">RESERVACIONES</a></div>
-                <div class="col-12 col-sm-4 text-center mt-2"><a href="#" class="nav-link">CONTÁCTANOS</a></div>
-                <div class="col-12 col-sm-4 text-center mt-2"><a href="#" class="nav-link">DESARROLLADORES</a></div>
+                <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="reservaciones.html" class="nav-link activo">RESERVACIONES</a></div>
+                <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="#" class="nav-link disabled">CONTÁCTANOS</a></div>
+                <div class="col-12 col-sm-4 text-center mt-2 nav-item"><a href="desarrolladores.html" class="nav-link">DESARROLLADORES</a></div>
             </div>
 
             <div class="col-12 row mt-3 mb-3">
@@ -196,7 +184,7 @@
                 </div>
             </div>
 
-            <div class="col-12 mt-3 pt-3 text-center border-top" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <div class="col-12 mt-3 pt-3 mb-3 text-center border-top" style="border-color: rgba(256, 256, 256, .1) !important;">
                 <p class="mb-2 text-white">Copyright &copy; <a class="footer-link" href="#">El Chinito</a> Todos los derechos reservados.</a></p>
                 <p class="m-0 text-white">Desarrollado por <a class="footer-link" href="#">Inteliware</a></p>
             </div>

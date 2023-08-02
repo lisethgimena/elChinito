@@ -6,6 +6,20 @@
     --dark: #0F0B00;
     --light:#f2f2f2;
 }
+
+/* MODIFICAR*/
+.señores{
+    border: white 8px outset;
+}
+.titulo p{
+    color: var(--primary);
+    -webkit-text-stroke: 2px var(--dark);
+}
+.tarifa p {
+    -webkit-text-stroke: 2px black;
+    color: var(--light);
+}
+/* fin  MODIFICAR*/
 *{
     list-style: none;
 }

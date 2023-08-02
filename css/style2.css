@@ -12,6 +12,8 @@ body{
   align-items: center;
   justify-content: center;
 }
+
+/* DESARROLLADORES */
 .slide-container{
   max-width: 1120px;
   width: 100%;
@@ -134,3 +136,4 @@ body{
     display: none;
   }
 }
+/* fin DESARROLLADORES */

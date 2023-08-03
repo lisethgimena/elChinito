@@ -23,7 +23,7 @@ document.querySelector('#boton1').addEventListener('click', function(){
   let horario = document.querySelector('#horario').value;
   let pago = document.querySelector('#pago').value;
 
-  let url = "https://wa.me/51912764864?text=Buenas, quisiera hacer una reservación a: *_Nombre_*: " +nombre +" Teléfono: "
+  let url = "https://wa.me/51912764864?text=*_Buenas, quisiera hacer una reservación a:_* %0A *Nombre*%0A: " +nombre +" Teléfono: "
   +telefono +" DNI: " +dni +" Servicio: " +servicio +" Horario: " 
   +horario +" Método de pago:" +pago;
   window.open(url)

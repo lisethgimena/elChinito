@@ -32,11 +32,6 @@ body{
 /* fin GENERAL */
 
             /* CABECERA */
-#cabecera{
-    position:fixed;   
-    width: 100%;
-    top: 0;
-}
 .navbar{
     background-color: var(--dark);
     

@@ -1,4 +1,7 @@
-/* var */
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+        /* VAR */
 :root{
     --primary:#F2BB16;
     --secondary: #FFF980;
@@ -7,39 +10,27 @@
     --light:#f2f2f2;
 }
 
-/* MODIFICAR*/
-.señores{
-    border: white 8px outset;
-}
-.titulo p{
-    color: var(--primary);
-    -webkit-text-stroke: 2px var(--tertiary);
-    margin-top: 45%;
-}
-@media (max-width: 576px){
-    .titulo p{
-        margin-top: 0%;
-    }
-}
-.tarifa p {
-    -webkit-text-stroke: 2px black;
-    color: var(--light);
-}
-/* fin  MODIFICAR*/
 *{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-        /* GENERAL */
+            /* GENERAL */
 html {
     scroll-behavior: smooth;
 }
 body{
- background-color: var(--light);
+    background-color: var(--light);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
-        /* fin GENERAL */
+/* fin GENERAL */
 
-        /* CABECERA */
+            /* CABECERA */
 .navbar{
     background-color: var(--dark);
 }
@@ -67,10 +58,10 @@ body{
 .navbar-toggler-icon:hover{
     color: #F2BB16;
 }
-        /* fin CABECERA */
+/* fin CABECERA */
 
 
-        /* SECTION */
+            /* SECTION */
 .section{
     background-color: var(--light);
     background-image: url(../img/section-img-bg.png);
@@ -98,9 +89,9 @@ body{
 .section-img img{
     width: 70%;
 }
-        /* fin SECTION */
+/* fin SECTION */
 
-        /* QUIENES SOMOS */
+            /* QUIENES SOMOS */
 .sectionQuienesSomos{
     background-color: var(--light);
 }
@@ -127,13 +118,12 @@ body{
     text-align: justify;
     padding-left: 8px;
 }
-        /* fin QUIENES SOMOS */
+/* fin QUIENES SOMOS */
 
-        /* UBICANOS */
+            /* UBICANOS */
 .sectionUbicanos{
     background-color: var(--light);
 }
-
 .ubicanos-text{
     background-color: var(--secondary);
     color: var(--dark);
@@ -160,19 +150,18 @@ body{
     scale: 1.05;
     transform: translateY(4px);
     border-radius: 15px 15px 15px 15px;
-
 }
-    /*CARRUSEL*/
-    .slide img {
-        width: 100%;
-    }
-    .carousel-inner img{
-        width: 100%;
-        height: 100%;
-    }
-        /* fin UBICANOS */
+/*CARRUSEL*/
+.slide img {
+    width: 100%;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+/* fin UBICANOS */
 
-/* RESERVACIONES */
+            /* RESERVACIONES */
 .titulo{
     font-size: 50px;
     color: #F2BB16;
@@ -193,11 +182,9 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 .checkeable input {
     display: none;
 }
-
 .checkeable img {
     width: 70px;
     border: 3px solid transparent;  
@@ -215,11 +202,9 @@ body{
 .circular--square {
     border-radius: 50%;
 }
-
 #boton{
     text-align: center;
 }
-
 #boton1 {
     margin-top: 20px;
     border: 0 solid;
@@ -230,7 +215,6 @@ body{
     font-size: 20px;
     text-align: center;
     color:rgb(250, 246, 227);
-
     background-color: red;
     box-shadow: inset 0 0 20px rgb(250, 68, 68);
     outline: 1px solid;
@@ -238,11 +222,10 @@ body{
     outline-offset: 0px;
     text-shadow: none;
     -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
     outline-color: #0f0b00;
     outline-offset: 0px;
 }
-  
 #boton1:hover {
     border: 2px #970909 solid;
     border-radius: 2px;
@@ -253,10 +236,155 @@ body{
     -webkit-text-stroke: 1px #fefff8;
     text-shadow: 2px 2px #0F0B00 ;
 }
-
 /* fin RESERVACIONES */
 
-        /* PIE DE PAGINA */
+            /* SERVICE */
+.señores{
+    border: white 8px outset;
+}
+.titulo p{
+    color: var(--primary);
+    -webkit-text-stroke: 2px var(--tertiary);
+    margin-top: 45%;
+}
+@media (max-width: 576px){
+    .titulo p{
+        margin-top: 0%;
+    }
+}
+.tarifa p {
+    -webkit-text-stroke: 2px black;
+    color: var(--light);
+}
+/* fin  SERVICE*/
+
+            /* DESARROLLADORES */
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    border-radius: 25px;
+    background-color: #FFF;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 25px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+    border-radius: 25px;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: #265DF2;
+}
+.swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #4070F4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 35px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}
+/* fin DESARROLLADORES */
+
+            /* PIE DE PAGINA */
 .footer{
     background-color: var(--dark);
 }
@@ -280,4 +408,4 @@ body{
 .footer-link:hover{
     color: var(--primary);
 }
-        /* fin PIE DE PAGINA */
+/* fin PIE DE PAGINA */

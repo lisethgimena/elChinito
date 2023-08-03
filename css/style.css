@@ -17,8 +17,28 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-            /* GENERAL */
+/*VIDEO*/
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.absolute{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+video{
+    width: 100%;
+}
+/* GENERAL */
 html {
     scroll-behavior: smooth;
 }
@@ -89,6 +109,31 @@ body{
 .section-img img{
     width: 70%;
 }
+@media screen and (max-width: 1600px){
+    .subs{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .subs{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .subs{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 460px){
+    .subs{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 300px){
+    .subs{
+        font-size: 18px;
+    }
+}
 /* fin SECTION */
 
             /* QUIENES SOMOS */
@@ -120,7 +165,7 @@ body{
 }
 /* fin QUIENES SOMOS */
 
-            /* UBICANOS */
+/* UBICANOS */
 .sectionUbicanos{
     background-color: var(--light);
 }
@@ -162,12 +207,26 @@ body{
 /* fin UBICANOS */
 
             /* RESERVACIONES */
+@media screen and (max-width: 2000px){
+    .titulo{
+        font-size: 50px;
+    }
+    }
+@media screen and (max-width: 500px){
+    .titulo{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 350px){
+    .titulo{
+        font-size: 28px;
+    }
+}
 .titulo{
-    font-size: 50px;
     color: #F2BB16;
     margin-top: 20px;
     -webkit-text-stroke: 2px #A17C0E;
-    font-family: Cambria;
+    font-family: Cambria;  
 }
 .info-reservas{
     text-align: justify;
@@ -257,7 +316,51 @@ body{
     color: var(--light);
 }
 /* fin  SERVICE*/
+/*CARWASH*/
+@media screen and (max-width: 2000px){
+    .carw{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .carw{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    .carw{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 575px){
+    .carw{
+        font-size: 50px;
+    }
+}
+/* fin CARWASH*/
 
+/*GARAGE*/
+@media screen and (max-width: 2000px){
+    .gara{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .gara{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    .gara{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 575px){
+    .gara{
+        font-size: 50px;
+    }
+}
+/* fin GARAGE*/
             /* DESARROLLADORES */
 .slide-container{
     max-width: 1120px;

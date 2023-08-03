@@ -23,7 +23,11 @@ let servicio = document.querySelector('#servicio').value;
 let horario = document.querySelector('#horario').value;
 let pago = document.querySelector('#pago').value;
 
+<<<<<<< HEAD
 let url = "https://wa.me/51912764864?text=Buenas, quisiera hacer una reservación a: *_Nombre_*: " +nombre +" Teléfono: "
+=======
+let url = "https://wa.me/51912764864?text=Buenas, quisiera hacer una reservación a: Nombre: " +nombre +" Teléfono: "
+>>>>>>> dabc5a8ca2c84f1945e5c76828b91a77608ce3ef
 +telefono +" DNI: " +dni +" Servicio: " +servicio +" Horario: " 
 +horario +" Método de pago:" +pago;
 window.open(url)

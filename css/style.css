@@ -54,6 +54,7 @@ body{
             /* CABECERA */
 .navbar{
     background-color: var(--dark);
+    
 }
 .nav-link{
     color: var(--light);
@@ -534,6 +535,9 @@ body{
             /* PIE DE PAGINA */
 .footer{
     background-color: var(--dark);
+}
+#btnllamar{
+    text-decoration: none;
 }
 .footer-icon a{
     color: var(--light);

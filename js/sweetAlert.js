@@ -1,43 +1,9 @@
-function enviar() {
+function enviar(){
     const swalWithBootstrapButtons = Swal.mixin({
         customClass: {
-            confirmButton: "btn btn-success",
-            cancelButton: "btn btn-danger",
+          confirmButton: 'btn btn-success',
+          cancelButton: 'btn btn-danger'
         },
-<<<<<<< HEAD
-        buttonsStyling: false,
-    });
-
-    swalWithBootstrapButtons
-        .fire({
-            title: "¿Desea confirmar su reserva?",
-            text: "Verifique bien sus datos",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonText: "Sí, resérvalo!",
-            cancelButtonText: "No, cancélalo!",
-            reverseButtons: true,
-        })
-        .then((result) => {
-            if (result.isConfirmed) {
-                swalWithBootstrapButtons.fire(
-                    "Reservado",
-                    "Sus datos fueron enviados con éxito. Gracias por su preferencia :)",
-                    "success"
-                );
-            } else if (
-                /* Read more about handling dismissals below */
-                result.dismiss === Swal.DismissReason.cancel
-            ) {
-                swalWithBootstrapButtons.fire(
-                    "Cancelado",
-                    "El envío fue cancelado con éxito",
-                    "error"
-                );
-            }
-        });
-}
-=======
         buttonsStyling: false
       })
       
@@ -57,9 +23,14 @@ document.querySelector('#boton1').addEventListener('click', function(){
   let horario = document.querySelector('#horario').value;
   let pago = document.querySelector('#pago').value;
 
+<<<<<<< HEAD
   let url = "https://wa.me/51912764864?text=Buenas, quisiera hacer una reservación a: *_Nombre_*: " +nombre +" Teléfono: "
   +telefono +" DNI: " +dni +" Servicio: " +servicio +" Horario: " 
   +horario +" Método de pago:" +pago;
+=======
+  let url = "https://wa.me/51912764864?text=*Buenas, quisiera hacer una reservación a:_* %0A *Nombre*:" +nombre + "%0A*Teléfono:* "
+  +telefono +"%0A*DNI:* " +dni +"%0A*Servicio:* " +servicio +"%0A*Horario:* " 
+  +horario +"%0A*Método de pago:*" +pago;
+>>>>>>> 6d873f5dd8948be5f56a40ac27265f97e96f78a6
   window.open(url)
 })
->>>>>>> 0962a445e628945ab0c7ae28efd9fc25b65f688a

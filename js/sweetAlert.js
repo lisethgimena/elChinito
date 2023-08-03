@@ -34,3 +34,7 @@ function enviar(){
         }
       })
 }
+
+document.querySelector('result.isConfirmed').addEventListener('click', function(){
+  let nombre = document.querySelector('#nombre').value;
+})

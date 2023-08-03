@@ -67,7 +67,7 @@
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-9 col-md-9">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name" required>
+                        <input id="nombre" type="text" class="form-control" id="floatingInput" placeholder="name" required>
                         <label for="floatingInput">Nombres</label>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-9 col-md-9">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="telefono" maxlength="9" required>
+                        <input id="telefono" type="text" class="form-control" id="floatingInput" placeholder="telefono" maxlength="9" required>
                         <label for="floatingInput">Telefono</label>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-9 col-md-9">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="name" maxlength="8" required>
+                        <input id="dni" type="text" class="form-control" id="floatingInput" placeholder="name" maxlength="8" required>
                         <label for="floatingInput">DNI</label>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-9 col-md-9">
                     <div class="form-floating mb-3">
-                        <select class="form-select" aria-label="Default select example">
+                        <select id="servicio" class="form-select" aria-label="Default select example">
                             <option selected>Seleccione el servicio deseado</option>
                             <option value="1">Lavado</option>
                             <option value="2">Garage</option>
@@ -108,7 +108,7 @@
             <div class="row justify-content-center">
                 <div class="col-9 col-sm-9 col-md-9">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Horario" maxlength="9" required>
+                        <input id="horario" type="text" class="form-control" id="floatingInput" placeholder="Horario" maxlength="9" required>
                         <label for="floatingInput">Ingrese el Horario</label>
                     </div>
                 </div>
@@ -123,17 +123,17 @@
             <div class="row justify-content-center ">
     
                 <div class="col-9 col-sm-9 col-md-8">
-                    <form action="" name="form1">
+                    <form   action="" name="form1">
                         <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService2" name="serviceOption">
-                            <label class="checkeable">
+                            <input id="pago" class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService2" name="serviceOption">
+                            <label  class="checkeable">
                                 <input type="checkbox" name="cap2"/>
                                 <img id="efectivo" class="circular--square" src="imagenesComprimidas/dinero.png"/> Efectivo</label>
                         </div> 
 
                         <div class="form-check">
-                            <input class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
-                            <label class="checkeable">
+                            <input id="pago" class="form-check-input form-service-checkbox" type="radio" value="" id="formSelectService1" name="serviceOption">
+                            <label  class="checkeable">
                                 <input type="checkbox" name="cap1"/>
                                 <img class="circular--square" src="imagenesComprimidas/yape.png"/> 950 439 585</label>
                         </div>     
@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="col-4 footer-icon text-center">
-                    <a class="text-center" href="#" target="_blank">
+                    <a class="text-center" href="https://wa.me/51912764864?text=Buenas tardes, quisiera más información. Gracias" target="_blank">
                         <i class="fa-brands fa-whatsapp fa-2xl"></i>
                     </a>
                 </div>

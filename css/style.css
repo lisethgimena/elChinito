@@ -53,6 +53,7 @@ body{
             /* CABECERA */
 .navbar{
     background-color: var(--dark);
+    
 }
 .nav-link{
     color: var(--light);

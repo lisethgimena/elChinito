@@ -9,7 +9,7 @@ function enviar(){
     
     swalWithBootstrapButtons.fire({
       title: 'Reservado',
-      text: "Sus datos fueron enviados con éxito. Gracias por su preferencia :)",
+      text: "Sus datos fueron enviados con éxito. Gracias por su preferencia.",
       icon: 'success',
       
     })      
@@ -23,7 +23,8 @@ let servicio = document.querySelector('#servicio').value;
 let horario = document.querySelector('#horario').value;
 let pago = document.querySelector('#pago').value;
 
-let url = "https://wa.me/51912764864?text=Buenas, quisiera hacer una reservación a: Nombre: " +nombre +" Teléfono: "
+let url = "https://wa.me/51912764864?text=Buenas, quisiera hacer una reservación a: Nombre: "
+ +nombre +" Teléfono: "
 +telefono +" DNI: " +dni +" Servicio: " +servicio +" Horario: " 
 +horario +" Método de pago:" +pago;
 window.open(url)

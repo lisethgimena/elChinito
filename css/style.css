@@ -18,27 +18,7 @@ url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&displ
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/*VIDEO*/
-.container{
-    width: 100%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-}
-.absolute{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    position: absolute;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-video{
-    width: 100%;
-}
+
 /* GENERAL */
 html {
     scroll-behavior: smooth;
@@ -52,6 +32,11 @@ body{
 /* fin GENERAL */
 
             /* CABECERA */
+#cabecera{
+    position:fixed;   
+    width: 100%;
+    top: 0;
+}
 .navbar{
     background-color: var(--dark);
     
@@ -115,6 +100,7 @@ body{
     font-size: 60px;
     color: #df0606;
     -webkit-text-stroke: 2px #030303;
+    margin-top: 60px;
 }
 .subs{
     color: #ffffff;
@@ -151,6 +137,12 @@ body{
             /* QUIENES SOMOS */
 .sectionQuienesSomos{
     background-color: var(--light);
+}
+#quienesSomos{
+    margin-top: 100px;
+}
+#servicio{
+    margin-top: 100px;
 }
 .info-card-image{
     background-color: var(--light);

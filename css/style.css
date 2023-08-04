@@ -1,5 +1,6 @@
 /* Google Fonts - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
         /* VAR */
 :root{
@@ -31,7 +32,10 @@ body{
 /* fin GENERAL */
 
             /* CABECERA */
+<<<<<<< HEAD
 
+=======
+>>>>>>> a45838c17546384497b4a30fc044a62f204fe68e
 .navbar{
     background-color: var(--dark);
     
